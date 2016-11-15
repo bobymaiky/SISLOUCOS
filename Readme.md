@@ -1,54 +1,53 @@
-# NOME_DO_SOFTWARE
-  Este aplicativo foi desenvolvido para o desafio da Programação Radical 2016, onde deve ser desenvolvido um software para uma pequena clínica médica.
+# SISCLINIC
+  Este aplicativo foi desenvolvido para o desafio da ProgramaÃ§Ã£o Radical 2016, onde deve ser desenvolvido um software para uma pequena clÃ­nica mÃ©dica.
 
 # Objetivo
-  Descrever o objetivo do software
-
+  Sistema tem o objetivo de gerenciar agendamento, atendimentos, triagem e consultas. TambÃ©m incluso ao sistema existe cadastros que dÃ£o suporte a essas funcionalidades como: Pessoa, UsuÃ¡rio, Profissional, Cidade, Bairro, UF, Logradouro, sexo.
 # Licenca de uso
-O codigo utilizado na aplicação é Código Proprietario da aplicação.
+O codigo utilizado na aplicaÃ§Ã£o Ã© CÃ³digo Proprietario da aplicaÃ§Ã£o.
 
-## Tabela de Conteúdo
+## Tabela de ConteÃºdo
  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
  - [Estrutura do Aplicativo](#estrutura-do-aplicativo)
 
 ## Tecnologias Utilizadas
-1. .Net C# Core
-2. Angular.js
-3. Cordova e Ionic
-4. Javascript
-5. Bower
-6. Microsoft Azure
-7. MSSQL Server
+1. PHP
+2. JavaScript
+3. Cordova
+4. Java
+5. MySQL Server
+6. CSS
+7. Prime Face
 
 ## Estrutura do Aplicativo
 
 ```
 ESaudeApp/
-+-- config.xml                         * Arquivo de Configuração do Aplicativo
-¦
-+-- plugins/                           * Plugins de camera, geolocalização e dependencias do aplicativo
++-- config.xml                         * Arquivo de ConfiguraÃ§Ã£o do Aplicativo
+Â¦
++-- plugins/                           * Plugins de camera, geolocalizaÃ§Ã£o e dependencias do aplicativo
 |
-+-- resources/						   * Recursos gráficos como logomarca e icones
++-- resources/						   * Recursos grÃ¡ficos como logomarca e icones
 |
 +-- scss/                              * Arquivo de Estilo do Ionic
 |
 +-- www/                               * Folder that is copied over to platforms www directory
-¦   ¦   
-¦   +-- js/                            * Contém os Controllers e Factorys Angular.js necessárias para o funcionamento do aplicativo                
-¦   ¦
-¦   +-- css/                           * Arquivos Css
-¦   ¦
-¦   +-- img/                           * Incones e logomarca utilizadas no aplicativo
-¦   ¦
-¦   +-- lib/                           * Dependencias do Angular.js, Ionic, Bower e Cordova.
-¦   ¦
-¦   +-- Arquivos*.html                 * Arquivos utilizados na construção das views
+Â¦   Â¦   
+Â¦   +-- js/                            * ContÃ©m os Controllers e Factorys Angular.js necessÃ¡rias para o funcionamento do aplicativo                
+Â¦   Â¦
+Â¦   +-- css/                           * Arquivos Css
+Â¦   Â¦
+Â¦   +-- img/                           * Incones e logomarca utilizadas no aplicativo
+Â¦   Â¦
+Â¦   +-- lib/                           * Dependencias do Angular.js, Ionic, Bower e Cordova.
+Â¦   Â¦
+Â¦   +-- Arquivos*.html                 * Arquivos utilizados na construÃ§Ã£o das views
 |
 +-- .editorconfig                      * Defines coding styles between editors
-+-- config.xml                         * Arquivo de configuração do Cordova
-+-- gulpfile.js                        * Contém as tarefas utilizadas pelo Gulp para compilar o projeto
-+-- ionic.project                      * Arquivo de configuração do Ionic
++-- config.xml                         * Arquivo de configuraÃ§Ã£o do Cordova
++-- gulpfile.js                        * ContÃ©m as tarefas utilizadas pelo Gulp para compilar o projeto
++-- ionic.project                      * Arquivo de configuraÃ§Ã£o do Ionic
 +-- package.json                       * As dependencias Javascript
-+-- ESaude.sln						   * Arquivo da Solução utilizada no Visual Studio.
++-- ESaude.sln						   * Arquivo da SoluÃ§Ã£o utilizada no Visual Studio.
 +-- README.md                          * Este Arquivo
 ```
